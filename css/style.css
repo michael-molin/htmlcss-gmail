@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Serif KR', serif;
+}
+
+body {
+    background-image: url("https://www.itl.cat/pngfile/big/14-147043_pink-and-blue-sky-background-for-laptop-wallpaper.jpg");
+    margin:auto;
+}
+
+header , main , footer {
+    margin: auto;
+    width: 50%;
+    padding:10px 0px;
+}
+
+header , main{
+    border-bottom: solid black;
+}
+
+footer {
+    text-align: center;
+}
+
+#icona {
+    float:left;
+    height: 160px;
+}
+
+.titolo {
+    border-bottom: solid black;
+    overflow: auto;
+}
+
+.formato1 {
+    padding-top: 15px;
+}
+
+.formato2 {
+    padding: 15px 0px;
+}
+
+
+#trenta {
+    background-color: yellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+
+.mail1, .mail2, .mail3 {
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: none;
+}
+
+.mail4 {
+    border-top: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+
+}
+
+.mail1, .mail2, .mail4 {
+    background-color: gray;
+}
+
+.mail3 {
+    background-color: lightgrey;
+}
+
+small {
+    font-family: 'Public Sans', sans-serif;
+}
